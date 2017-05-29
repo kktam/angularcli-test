@@ -1,0 +1,6 @@
+    <div class="accordion-tab">
+      <div class="accordion-heading" (click)="toggleContent()">{{ title }}</div>
+      <div>
+      <ng-content *ngIf="extended"></ng-content>
+      </div>
+    </div>

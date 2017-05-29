@@ -1,0 +1,10 @@
+    .accordion-tab {
+     width: 500px;
+     border: 1px solid black;
+     border-collapse: collapse;
+    }
+    .accordion-heading {
+     padding: 5px;
+     background-color: lightblue;
+     cursor: pointer;
+    }

@@ -1,0 +1,6 @@
+<div>
+  <button (click)="fetchData()">update data</button>
+  <accordion-tab *ngFor="let user of users" (toggle)="toggle(user)" [extended]="isActive(user)" [title]="user.name">
+    <user-info [user]="user"></user-info>
+  </accordion-tab>
+</div>

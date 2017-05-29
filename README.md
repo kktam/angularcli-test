@@ -1,5 +1,16 @@
 # Hello
 
+This project is an experiement to use the angular-cli 1.0.0-beta.28.3 to re-build an Example from Packt Publishing source code from:
+
+https://github.com/PacktPublishing/Angular-2-Components/tree/master/Chapter07/ng_components
+
+There are a couple of enhancment in this project.
+
+- use latest angular-cli without running in issue. The sample at Packt does not compile with angular-cli after 1.0.0.
+  https://github.com/angular/angular-cli/issues/5654
+- add debugger configuration file for Visual Studio code.
+- other changes with angular-router.
+
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.28.3.
 
 ## Development server
